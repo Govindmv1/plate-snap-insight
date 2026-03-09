@@ -1,73 +1,105 @@
-# Welcome to your Lovable project
+# Plate Snap Insight
 
-## Project info
+Plate Snap Insight is a food scanning and nutrition tracking app built with React + Vite + Supabase.
+Users can sign in, scan meals with camera/gallery, get nutrition estimates from a Supabase Edge Function, and save meal history.
 
-**URL**: https://lovable.dev/projects/9fc4bf75-0a52-48aa-8a32-86330d293035
+## Project Structure
 
-## How can I edit this code?
+- `plate-snap-insight-main/`: main web app (React + TypeScript)
+- `food datas/`: sample food images
 
-There are several ways of editing your application.
+Most development work happens in `plate-snap-insight-main/`.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/9fc4bf75-0a52-48aa-8a32-86330d293035) and start prompting.
+- Email/password authentication (Supabase Auth)
+- User onboarding and profile setup
+- Meal scan flow (camera + gallery upload fallback)
+- ML-powered food analysis via Supabase Edge Function (`analyze-food`)
+- Nutrition estimates (calories/macros)
+- Allergen alerts and diet compliance checks
+- Meal history and dashboard progress
+- Rule-based in-app nutrition chatbot
 
-Changes made via Lovable will be committed automatically to this repo.
+## Tech Stack
 
-**Use your preferred IDE**
+- React 18 + TypeScript
+- Vite
+- Tailwind CSS + shadcn/ui
+- Supabase (Auth, Postgres, Edge Functions)
+- Capacitor Camera (with web fallback)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Node.js 18+
+- npm 9+
+- Supabase project (for auth/database/functions)
+- Optional: Supabase CLI (for local DB/function workflows)
 
-Follow these steps:
+## Quick Start
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```powershell
+cd plate-snap-insight-main
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+App runs at the local Vite URL shown in terminal (usually `http://localhost:5173`).
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Environment Variables
 
-**Use GitHub Codespaces**
+Create `plate-snap-insight-main/.env` with:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```env
+VITE_SUPABASE_URL=your_supabase_project_url
+VITE_SUPABASE_PUBLISHABLE_KEY=your_supabase_anon_key
+```
 
-## What technologies are used for this project?
+## Supabase Setup
 
-This project is built with:
+Run SQL migrations from:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- `supabase/migrations/20251023133745_73d093cf-ad43-497b-9b7a-2265408fc437.sql`
+- `supabase/migrations/20251025120000_add_exercise_columns.sql`
 
-## How can I deploy this project?
+These create/update:
 
-Simply open [Lovable](https://lovable.dev/projects/9fc4bf75-0a52-48aa-8a32-86330d293035) and click on Share -> Publish.
+- `profiles` table
+- `meals` table
+- RLS policies and indexes
+- profile exercise/diet columns
 
-## Can I connect a custom domain to my Lovable project?
+## Edge Function (Food Analysis)
 
-Yes, you can!
+- Function source: `supabase/functions/analyze-food/index.ts`
+- Model artifact: `supabase/functions/analyze-food/model/model_artifact.json`
+- Dataset: `supabase/functions/analyze-food/data/food_dataset.csv`
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+If using Supabase CLI:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```powershell
+supabase functions serve analyze-food
+```
+
+## ML Model Workflow
+
+From `plate-snap-insight-main/`:
+
+```powershell
+python ml/train_and_export_model.py
+```
+
+This retrains and exports the model artifact used by the `analyze-food` function.
+
+## Build
+
+```powershell
+cd plate-snap-insight-main
+npm run build
+npm run preview
+```
+
+## Notes
+
+- There is a duplicated nested app folder in the repository. Use `plate-snap-insight-main/` as the primary app directory.
+- Some UI text/icons appear to have encoding artifacts; set files/editor to UTF-8 if you update those strings.
