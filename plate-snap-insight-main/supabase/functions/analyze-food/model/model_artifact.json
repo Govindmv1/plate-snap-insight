@@ -1,0 +1,9118 @@
+{
+  "meta": {
+    "trained_at_utc": "2026-03-05T14:10:28.769557+00:00",
+    "random_seed": 42,
+    "train_ratio": 0.8,
+    "k_neighbors": 9,
+    "feature_names": [
+      "image_r",
+      "image_g",
+      "image_b",
+      "brightness"
+    ],
+    "label_name": "food_name",
+    "dataset_rows": 1200,
+    "food_classes": 20
+  },
+  "metrics": {
+    "centroid_accuracy": 0.9917,
+    "knn_accuracy": 0.9833,
+    "test_samples": 240,
+    "train_samples": 960
+  },
+  "selected_model": "centroid",
+  "centroids": {
+    "Omelette": [
+      222.95833333333334,
+      191.22916666666666,
+      106.0625,
+      173.41666666666666
+    ],
+    "Avocado Toast": [
+      150.72916666666666,
+      179.14583333333334,
+      102.08333333333333,
+      144.0
+    ],
+    "Idli Sambar": [
+      219.10416666666666,
+      202.14583333333334,
+      167.04166666666666,
+      196.0625
+    ],
+    "Veggie Burger": [
+      169.1875,
+      123.02083333333333,
+      86.16666666666667,
+      126.10416666666667
+    ],
+    "Lentil Soup": [
+      176.72916666666666,
+      120.35416666666667,
+      70.91666666666667,
+      122.66666666666667
+    ],
+    "Grilled Chicken Breast": [
+      171.58333333333334,
+      134.64583333333334,
+      101.91666666666667,
+      136.0625
+    ],
+    "Mixed Salad": [
+      97.41666666666667,
+      151.85416666666666,
+      83.70833333333333,
+      111.0
+    ],
+    "Chapati": [
+      203.91666666666666,
+      160.0,
+      111.8125,
+      158.58333333333334
+    ],
+    "Banana Smoothie": [
+      232.8125,
+      216.83333333333334,
+      140.70833333333334,
+      196.75
+    ],
+    "Fruit Bowl": [
+      210.8125,
+      148.27083333333334,
+      103.91666666666667,
+      154.375
+    ],
+    "Pasta Alfredo": [
+      232.8125,
+      213.10416666666666,
+      171.77083333333334,
+      205.85416666666666
+    ],
+    "Paneer Curry": [
+      188.02083333333334,
+      121.8125,
+      82.72916666666667,
+      130.83333333333334
+    ],
+    "Salmon Fillet": [
+      228.0,
+      142.125,
+      121.10416666666667,
+      163.72916666666666
+    ],
+    "Sushi Roll": [
+      228.22916666666666,
+      223.25,
+      208.125,
+      219.875
+    ],
+    "Tofu Stir Fry": [
+      163.52083333333334,
+      148.04166666666666,
+      115.95833333333333,
+      142.54166666666666
+    ],
+    "Quinoa Bowl": [
+      205.04166666666666,
+      191.16666666666666,
+      141.9375,
+      179.375
+    ],
+    "Brown Rice": [
+      201.04166666666666,
+      177.66666666666666,
+      132.16666666666666,
+      170.3125
+    ],
+    "Beef Steak": [
+      145.1875,
+      78.04166666666667,
+      65.0625,
+      96.08333333333333
+    ],
+    "Peanut Butter Sandwich": [
+      182.91666666666666,
+      144.02083333333334,
+      96.16666666666667,
+      141.0625
+    ],
+    "Greek Yogurt Bowl": [
+      231.85416666666666,
+      226.14583333333334,
+      202.60416666666666,
+      220.20833333333334
+    ]
+  },
+  "train_samples": [
+    {
+      "label": "Omelette",
+      "features": [
+        228.0,
+        196.0,
+        109.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        146.0,
+        184.0,
+        100.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        149.0,
+        183.0,
+        105.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        217.0,
+        203.0,
+        168.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        154.0,
+        175.0,
+        105.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        163.0,
+        119.0,
+        90.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        180.0,
+        116.0,
+        74.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        169.0,
+        135.0,
+        98.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        95.0,
+        155.0,
+        82.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        199.0,
+        162.0,
+        108.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        236.0,
+        218.0,
+        140.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        207.0,
+        153.0,
+        108.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        237.0,
+        209.0,
+        172.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        200.0,
+        165.0,
+        116.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        166.0,
+        120.0,
+        89.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        205.0,
+        160.0,
+        109.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        185.0,
+        122.0,
+        79.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        237.0,
+        213.0,
+        141.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        227.0,
+        141.0,
+        125.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        230.0,
+        217.0,
+        137.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        228.0,
+        220.0,
+        206.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        186.0,
+        120.0,
+        82.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        168.0,
+        145.0,
+        112.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        211.0,
+        194.0,
+        139.0,
+        181.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        179.0,
+        115.0,
+        69.0,
+        121.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        170.0,
+        139.0,
+        105.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        235.0,
+        220.0,
+        137.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        204.0,
+        162.0,
+        115.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        199.0,
+        195.0,
+        144.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        226.0,
+        146.0,
+        124.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        170.0,
+        118.0,
+        87.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        213.0,
+        151.0,
+        100.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        198.0,
+        178.0,
+        128.0,
+        168.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        161.0,
+        152.0,
+        119.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        235.0,
+        215.0,
+        141.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        151.0,
+        81.0,
+        62.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        165.0,
+        151.0,
+        112.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        211.0,
+        192.0,
+        145.0,
+        183.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        210.0,
+        160.0,
+        116.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        227.0,
+        214.0,
+        172.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        201.0,
+        157.0,
+        115.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        156.0,
+        181.0,
+        103.0,
+        147.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        206.0,
+        153.0,
+        102.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        187.0,
+        149.0,
+        93.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        224.0,
+        207.0,
+        170.0,
+        200.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        170.0,
+        130.0,
+        99.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        150.0,
+        178.0,
+        106.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        232.0,
+        225.0,
+        212.0,
+        223.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        228.0,
+        221.0,
+        140.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        92.0,
+        148.0,
+        88.0,
+        109.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        213.0,
+        206.0,
+        169.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        224.0,
+        205.0,
+        167.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        233.0,
+        212.0,
+        173.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        151.0,
+        76.0,
+        66.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        158.0,
+        153.0,
+        114.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        175.0,
+        121.0,
+        87.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        207.0,
+        148.0,
+        103.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        182.0,
+        140.0,
+        98.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        169.0,
+        130.0,
+        102.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        228.0,
+        212.0,
+        175.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        149.0,
+        174.0,
+        99.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        223.0,
+        144.0,
+        117.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        218.0,
+        193.0,
+        102.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        227.0,
+        215.0,
+        139.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        156.0,
+        179.0,
+        100.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        140.0,
+        83.0,
+        63.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        228.0,
+        226.0,
+        202.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        239.0,
+        208.0,
+        171.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        231.0,
+        141.0,
+        117.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        171.0,
+        121.0,
+        71.0,
+        121.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        221.0,
+        192.0,
+        107.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        190.0,
+        120.0,
+        83.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        157.0,
+        149.0,
+        116.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        169.0,
+        151.0,
+        113.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        223.0,
+        196.0,
+        102.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        232.0,
+        141.0,
+        123.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        229.0,
+        194.0,
+        103.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        167.0,
+        127.0,
+        89.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        206.0,
+        175.0,
+        128.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        147.0,
+        81.0,
+        61.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        210.0,
+        191.0,
+        140.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        198.0,
+        181.0,
+        130.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        139.0,
+        82.0,
+        67.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        225.0,
+        139.0,
+        124.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        190.0,
+        123.0,
+        85.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        183.0,
+        124.0,
+        79.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        227.0,
+        211.0,
+        170.0,
+        203.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        99.0,
+        152.0,
+        81.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        169.0,
+        133.0,
+        104.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        174.0,
+        120.0,
+        82.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        226.0,
+        195.0,
+        107.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        216.0,
+        199.0,
+        170.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        189.0,
+        117.0,
+        84.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        175.0,
+        131.0,
+        105.0,
+        137.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        229.0,
+        222.0,
+        145.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        185.0,
+        120.0,
+        85.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        166.0,
+        139.0,
+        104.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        202.0,
+        161.0,
+        113.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        239.0,
+        213.0,
+        176.0,
+        209.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        146.0,
+        75.0,
+        69.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        219.0,
+        193.0,
+        108.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        171.0,
+        115.0,
+        67.0,
+        118.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        175.0,
+        126.0,
+        83.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        229.0,
+        186.0,
+        105.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        184.0,
+        124.0,
+        85.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        167.0,
+        124.0,
+        87.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        208.0,
+        143.0,
+        104.0,
+        152.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        238.0,
+        222.0,
+        144.0,
+        201.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        166.0,
+        144.0,
+        119.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        182.0,
+        126.0,
+        85.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        231.0,
+        212.0,
+        138.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        233.0,
+        225.0,
+        209.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        98.0,
+        151.0,
+        85.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        221.0,
+        203.0,
+        169.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        220.0,
+        188.0,
+        109.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        92.0,
+        156.0,
+        86.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        218.0,
+        187.0,
+        107.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        181.0,
+        148.0,
+        99.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        188.0,
+        141.0,
+        92.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        222.0,
+        187.0,
+        108.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        199.0,
+        173.0,
+        129.0,
+        167.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        200.0,
+        195.0,
+        141.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        194.0,
+        123.0,
+        86.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        192.0,
+        124.0,
+        87.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        151.0,
+        78.0,
+        69.0,
+        99.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        178.0,
+        123.0,
+        70.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        96.0,
+        147.0,
+        81.0,
+        108.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        164.0,
+        145.0,
+        120.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        144.0,
+        77.0,
+        69.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        142.0,
+        76.0,
+        67.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        160.0,
+        143.0,
+        116.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        170.0,
+        120.0,
+        90.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        231.0,
+        146.0,
+        122.0,
+        166.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        150.0,
+        175.0,
+        104.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        163.0,
+        147.0,
+        117.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        183.0,
+        126.0,
+        82.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        196.0,
+        182.0,
+        131.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        225.0,
+        205.0,
+        164.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        205.0,
+        144.0,
+        108.0,
+        152.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        185.0,
+        139.0,
+        94.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        211.0,
+        150.0,
+        107.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        172.0,
+        140.0,
+        98.0,
+        137.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        185.0,
+        145.0,
+        98.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        142.0,
+        81.0,
+        63.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        178.0,
+        138.0,
+        99.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        189.0,
+        139.0,
+        95.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        235.0,
+        230.0,
+        204.0,
+        223.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        157.0,
+        146.0,
+        114.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        104.0,
+        152.0,
+        88.0,
+        115.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        164.0,
+        153.0,
+        118.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        176.0,
+        134.0,
+        104.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        215.0,
+        144.0,
+        104.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        175.0,
+        118.0,
+        85.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        172.0,
+        124.0,
+        85.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        231.0,
+        143.0,
+        120.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        151.0,
+        73.0,
+        64.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        212.0,
+        145.0,
+        108.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        175.0,
+        118.0,
+        70.0,
+        121.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        168.0,
+        119.0,
+        88.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        230.0,
+        226.0,
+        204.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        168.0,
+        132.0,
+        99.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        177.0,
+        139.0,
+        92.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        230.0,
+        227.0,
+        204.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        176.0,
+        121.0,
+        69.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        198.0,
+        155.0,
+        108.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        191.0,
+        118.0,
+        86.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        158.0,
+        147.0,
+        119.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        232.0,
+        225.0,
+        204.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        207.0,
+        164.0,
+        113.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        103.0,
+        152.0,
+        82.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        187.0,
+        121.0,
+        87.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        92.0,
+        147.0,
+        80.0,
+        106.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        231.0,
+        221.0,
+        144.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        236.0,
+        211.0,
+        169.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        215.0,
+        147.0,
+        106.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        148.0,
+        76.0,
+        62.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        182.0,
+        117.0,
+        79.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        92.0,
+        153.0,
+        84.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        174.0,
+        125.0,
+        87.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        169.0,
+        138.0,
+        100.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        178.0,
+        140.0,
+        97.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        155.0,
+        184.0,
+        99.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        227.0,
+        222.0,
+        212.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        199.0,
+        156.0,
+        113.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        178.0,
+        143.0,
+        99.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        101.0,
+        150.0,
+        81.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        217.0,
+        149.0,
+        107.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        226.0,
+        227.0,
+        203.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        169.0,
+        122.0,
+        87.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        177.0,
+        148.0,
+        98.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        217.0,
+        200.0,
+        166.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        200.0,
+        177.0,
+        136.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        227.0,
+        146.0,
+        121.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        173.0,
+        132.0,
+        106.0,
+        137.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        226.0,
+        192.0,
+        105.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        172.0,
+        137.0,
+        105.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        183.0,
+        127.0,
+        81.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        93.0,
+        154.0,
+        80.0,
+        109.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        220.0,
+        199.0,
+        171.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        206.0,
+        196.0,
+        144.0,
+        182.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        172.0,
+        125.0,
+        69.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        206.0,
+        158.0,
+        112.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        234.0,
+        220.0,
+        140.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        233.0,
+        223.0,
+        207.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        207.0,
+        179.0,
+        135.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        199.0,
+        187.0,
+        146.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        168.0,
+        137.0,
+        104.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        201.0,
+        155.0,
+        112.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        229.0,
+        220.0,
+        212.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        198.0,
+        176.0,
+        134.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        188.0,
+        147.0,
+        96.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        229.0,
+        192.0,
+        109.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        226.0,
+        221.0,
+        207.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        148.0,
+        179.0,
+        98.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        176.0,
+        124.0,
+        71.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        189.0,
+        145.0,
+        99.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        225.0,
+        200.0,
+        168.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        147.0,
+        181.0,
+        104.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        165.0,
+        143.0,
+        114.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        203.0,
+        181.0,
+        128.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        228.0,
+        191.0,
+        104.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        227.0,
+        212.0,
+        137.0,
+        192.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        179.0,
+        121.0,
+        73.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        167.0,
+        137.0,
+        98.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        213.0,
+        198.0,
+        171.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        206.0,
+        188.0,
+        146.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        182.0,
+        120.0,
+        69.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        236.0,
+        222.0,
+        203.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        234.0,
+        227.0,
+        205.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        157.0,
+        177.0,
+        103.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        171.0,
+        124.0,
+        73.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        174.0,
+        130.0,
+        100.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        207.0,
+        194.0,
+        138.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        232.0,
+        217.0,
+        172.0,
+        207.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        186.0,
+        143.0,
+        92.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        238.0,
+        224.0,
+        204.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        145.0,
+        80.0,
+        68.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        179.0,
+        149.0,
+        100.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        196.0,
+        177.0,
+        135.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        189.0,
+        144.0,
+        100.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        227.0,
+        190.0,
+        108.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        206.0,
+        186.0,
+        143.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        233.0,
+        229.0,
+        202.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        182.0,
+        125.0,
+        74.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        233.0,
+        216.0,
+        142.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        96.0,
+        150.0,
+        83.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        230.0,
+        145.0,
+        117.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        188.0,
+        121.0,
+        84.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        223.0,
+        193.0,
+        109.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        228.0,
+        228.0,
+        204.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        95.0,
+        149.0,
+        87.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        231.0,
+        215.0,
+        140.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        168.0,
+        127.0,
+        86.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        97.0,
+        148.0,
+        86.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        148.0,
+        176.0,
+        105.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        188.0,
+        146.0,
+        97.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        235.0,
+        208.0,
+        170.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        226.0,
+        137.0,
+        118.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        186.0,
+        140.0,
+        99.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        177.0,
+        140.0,
+        100.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        207.0,
+        158.0,
+        109.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        225.0,
+        186.0,
+        104.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        201.0,
+        160.0,
+        108.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        176.0,
+        122.0,
+        68.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        210.0,
+        147.0,
+        108.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        233.0,
+        231.0,
+        205.0,
+        223.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        189.0,
+        142.0,
+        97.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        229.0,
+        228.0,
+        210.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        169.0,
+        149.0,
+        119.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        229.0,
+        223.0,
+        206.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        171.0,
+        116.0,
+        75.0,
+        121.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        234.0,
+        221.0,
+        209.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        226.0,
+        222.0,
+        207.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        230.0,
+        137.0,
+        119.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        208.0,
+        159.0,
+        114.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        93.0,
+        157.0,
+        82.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        156.0,
+        182.0,
+        102.0,
+        147.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        174.0,
+        126.0,
+        86.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        216.0,
+        200.0,
+        169.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        144.0,
+        79.0,
+        63.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        203.0,
+        173.0,
+        130.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        160.0,
+        151.0,
+        114.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        148.0,
+        79.0,
+        64.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        202.0,
+        191.0,
+        138.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        232.0,
+        228.0,
+        205.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        201.0,
+        193.0,
+        144.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        186.0,
+        117.0,
+        80.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        230.0,
+        230.0,
+        206.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        147.0,
+        184.0,
+        106.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        219.0,
+        188.0,
+        103.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        152.0,
+        182.0,
+        101.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        236.0,
+        212.0,
+        168.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        200.0,
+        187.0,
+        143.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        217.0,
+        197.0,
+        164.0,
+        193.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        204.0,
+        179.0,
+        131.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        233.0,
+        218.0,
+        168.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        92.0,
+        150.0,
+        82.0,
+        108.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        236.0,
+        216.0,
+        137.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        222.0,
+        192.0,
+        104.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        182.0,
+        143.0,
+        100.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        219.0,
+        204.0,
+        170.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        227.0,
+        227.0,
+        208.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        223.0,
+        219.0,
+        209.0,
+        217.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        230.0,
+        140.0,
+        121.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        171.0,
+        118.0,
+        69.0,
+        119.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        230.0,
+        213.0,
+        168.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        179.0,
+        144.0,
+        95.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        204.0,
+        193.0,
+        139.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        178.0,
+        148.0,
+        95.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        218.0,
+        196.0,
+        104.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        238.0,
+        216.0,
+        172.0,
+        209.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        147.0,
+        76.0,
+        65.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        202.0,
+        155.0,
+        109.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        173.0,
+        125.0,
+        75.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        180.0,
+        124.0,
+        72.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        154.0,
+        178.0,
+        98.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        220.0,
+        197.0,
+        168.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        176.0,
+        119.0,
+        75.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        206.0,
+        163.0,
+        108.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        231.0,
+        222.0,
+        205.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        230.0,
+        218.0,
+        206.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        205.0,
+        180.0,
+        136.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        233.0,
+        144.0,
+        122.0,
+        166.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        178.0,
+        133.0,
+        103.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        168.0,
+        153.0,
+        119.0,
+        147.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        195.0,
+        174.0,
+        136.0,
+        168.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        148.0,
+        82.0,
+        66.0,
+        99.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        215.0,
+        150.0,
+        108.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        216.0,
+        197.0,
+        167.0,
+        193.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        207.0,
+        159.0,
+        108.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        229.0,
+        217.0,
+        140.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        207.0,
+        173.0,
+        131.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        216.0,
+        148.0,
+        102.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        206.0,
+        150.0,
+        100.0,
+        152.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        193.0,
+        127.0,
+        86.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        237.0,
+        215.0,
+        176.0,
+        209.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        229.0,
+        226.0,
+        207.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        146.0,
+        73.0,
+        66.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        218.0,
+        206.0,
+        167.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        166.0,
+        149.0,
+        115.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        232.0,
+        221.0,
+        141.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        204.0,
+        159.0,
+        113.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        230.0,
+        224.0,
+        210.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        194.0,
+        120.0,
+        84.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        192.0,
+        118.0,
+        83.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        199.0,
+        182.0,
+        135.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        224.0,
+        147.0,
+        125.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        228.0,
+        194.0,
+        106.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        158.0,
+        150.0,
+        112.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        155.0,
+        178.0,
+        104.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        205.0,
+        149.0,
+        104.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        224.0,
+        228.0,
+        212.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        173.0,
+        135.0,
+        99.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        218.0,
+        201.0,
+        171.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        172.0,
+        124.0,
+        70.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        222.0,
+        190.0,
+        110.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        175.0,
+        133.0,
+        99.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        184.0,
+        127.0,
+        87.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        224.0,
+        225.0,
+        210.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        145.0,
+        180.0,
+        102.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        148.0,
+        74.0,
+        68.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        238.0,
+        221.0,
+        202.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        169.0,
+        125.0,
+        89.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        232.0,
+        214.0,
+        170.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        223.0,
+        222.0,
+        211.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        184.0,
+        119.0,
+        80.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        97.0,
+        151.0,
+        88.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        232.0,
+        144.0,
+        125.0,
+        167.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        233.0,
+        142.0,
+        119.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        203.0,
+        162.0,
+        109.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        183.0,
+        121.0,
+        74.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        229.0,
+        210.0,
+        169.0,
+        203.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        223.0,
+        147.0,
+        119.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        237.0,
+        226.0,
+        201.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        205.0,
+        157.0,
+        116.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        228.0,
+        209.0,
+        173.0,
+        203.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        233.0,
+        145.0,
+        121.0,
+        166.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        225.0,
+        140.0,
+        123.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        143.0,
+        73.0,
+        62.0,
+        93.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        209.0,
+        152.0,
+        107.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        140.0,
+        77.0,
+        68.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        150.0,
+        78.0,
+        63.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        187.0,
+        123.0,
+        81.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        140.0,
+        74.0,
+        66.0,
+        93.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        171.0,
+        136.0,
+        100.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        233.0,
+        222.0,
+        137.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        209.0,
+        157.0,
+        108.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        140.0,
+        82.0,
+        64.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        173.0,
+        138.0,
+        101.0,
+        137.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        219.0,
+        191.0,
+        105.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        194.0,
+        117.0,
+        82.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        168.0,
+        140.0,
+        106.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        187.0,
+        146.0,
+        100.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        177.0,
+        119.0,
+        72.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        189.0,
+        122.0,
+        80.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        228.0,
+        141.0,
+        122.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        222.0,
+        227.0,
+        210.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        168.0,
+        124.0,
+        84.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        205.0,
+        143.0,
+        100.0,
+        149.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        183.0,
+        123.0,
+        68.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        223.0,
+        228.0,
+        206.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        141.0,
+        83.0,
+        69.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        228.0,
+        228.0,
+        205.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        191.0,
+        120.0,
+        80.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        149.0,
+        83.0,
+        62.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        228.0,
+        144.0,
+        124.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        205.0,
+        196.0,
+        138.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        233.0,
+        147.0,
+        124.0,
+        168.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        150.0,
+        183.0,
+        102.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        228.0,
+        219.0,
+        137.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        175.0,
+        121.0,
+        72.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        238.0,
+        227.0,
+        206.0,
+        224.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        226.0,
+        140.0,
+        120.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        232.0,
+        231.0,
+        199.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        180.0,
+        141.0,
+        99.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        227.0,
+        196.0,
+        103.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        227.0,
+        144.0,
+        118.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        227.0,
+        222.0,
+        204.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        199.0,
+        176.0,
+        131.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        224.0,
+        199.0,
+        163.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        212.0,
+        148.0,
+        101.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        237.0,
+        231.0,
+        206.0,
+        225.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        229.0,
+        226.0,
+        199.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        197.0,
+        178.0,
+        131.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        172.0,
+        122.0,
+        67.0,
+        120.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        202.0,
+        178.0,
+        129.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        204.0,
+        195.0,
+        142.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        98.0,
+        157.0,
+        80.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        207.0,
+        181.0,
+        129.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        238.0,
+        217.0,
+        139.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        100.0,
+        153.0,
+        86.0,
+        113.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        211.0,
+        191.0,
+        146.0,
+        183.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        172.0,
+        119.0,
+        89.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        229.0,
+        139.0,
+        125.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        237.0,
+        229.0,
+        203.0,
+        223.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        154.0,
+        180.0,
+        101.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        213.0,
+        146.0,
+        104.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        231.0,
+        208.0,
+        169.0,
+        203.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        165.0,
+        120.0,
+        83.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        175.0,
+        123.0,
+        90.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        178.0,
+        149.0,
+        94.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        224.0,
+        223.0,
+        207.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        225.0,
+        221.0,
+        210.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        225.0,
+        142.0,
+        117.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        234.0,
+        226.0,
+        205.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        181.0,
+        119.0,
+        73.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        142.0,
+        78.0,
+        61.0,
+        94.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        229.0,
+        221.0,
+        203.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        180.0,
+        147.0,
+        94.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        145.0,
+        77.0,
+        66.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        194.0,
+        125.0,
+        80.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        228.0,
+        213.0,
+        142.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        223.0,
+        198.0,
+        167.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        167.0,
+        150.0,
+        120.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        199.0,
+        165.0,
+        110.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        212.0,
+        153.0,
+        106.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        234.0,
+        224.0,
+        211.0,
+        223.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        216.0,
+        151.0,
+        104.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        227.0,
+        225.0,
+        205.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        167.0,
+        147.0,
+        118.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        95.0,
+        147.0,
+        84.0,
+        109.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        203.0,
+        179.0,
+        134.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        162.0,
+        152.0,
+        116.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        208.0,
+        192.0,
+        141.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        170.0,
+        136.0,
+        103.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        150.0,
+        75.0,
+        61.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        149.0,
+        74.0,
+        65.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        227.0,
+        213.0,
+        145.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        182.0,
+        122.0,
+        72.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        234.0,
+        213.0,
+        169.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        207.0,
+        192.0,
+        144.0,
+        181.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        206.0,
+        191.0,
+        139.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        187.0,
+        124.0,
+        80.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        174.0,
+        138.0,
+        98.0,
+        137.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        174.0,
+        117.0,
+        74.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        200.0,
+        174.0,
+        134.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        219.0,
+        207.0,
+        163.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        202.0,
+        158.0,
+        111.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        234.0,
+        140.0,
+        122.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        154.0,
+        183.0,
+        103.0,
+        147.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        203.0,
+        159.0,
+        116.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        218.0,
+        204.0,
+        164.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        210.0,
+        161.0,
+        115.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        230.0,
+        220.0,
+        139.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        190.0,
+        117.0,
+        81.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        231.0,
+        218.0,
+        142.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        177.0,
+        138.0,
+        102.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        166.0,
+        152.0,
+        117.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        208.0,
+        151.0,
+        102.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        213.0,
+        203.0,
+        167.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        199.0,
+        159.0,
+        115.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        233.0,
+        215.0,
+        175.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        164.0,
+        122.0,
+        89.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        177.0,
+        142.0,
+        94.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        215.0,
+        204.0,
+        169.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        174.0,
+        133.0,
+        102.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        189.0,
+        119.0,
+        87.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        226.0,
+        224.0,
+        201.0,
+        217.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        148.0,
+        182.0,
+        100.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        235.0,
+        224.0,
+        200.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        165.0,
+        125.0,
+        88.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        231.0,
+        224.0,
+        207.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        238.0,
+        210.0,
+        168.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        239.0,
+        220.0,
+        138.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        223.0,
+        190.0,
+        107.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        165.0,
+        123.0,
+        85.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        195.0,
+        179.0,
+        132.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        200.0,
+        182.0,
+        132.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        172.0,
+        122.0,
+        82.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        150.0,
+        181.0,
+        99.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        218.0,
+        195.0,
+        105.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        172.0,
+        119.0,
+        74.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        97.0,
+        156.0,
+        84.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        231.0,
+        222.0,
+        204.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        224.0,
+        144.0,
+        123.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        230.0,
+        212.0,
+        141.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        216.0,
+        153.0,
+        107.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        209.0,
+        160.0,
+        110.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        204.0,
+        190.0,
+        146.0,
+        180.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        210.0,
+        163.0,
+        109.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        167.0,
+        140.0,
+        100.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        196.0,
+        174.0,
+        133.0,
+        168.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        234.0,
+        218.0,
+        207.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        198.0,
+        156.0,
+        116.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        223.0,
+        225.0,
+        204.0,
+        217.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        228.0,
+        139.0,
+        119.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        177.0,
+        125.0,
+        67.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        225.0,
+        145.0,
+        119.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        98.0,
+        149.0,
+        82.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        199.0,
+        189.0,
+        140.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        216.0,
+        202.0,
+        163.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        234.0,
+        216.0,
+        171.0,
+        207.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        173.0,
+        117.0,
+        68.0,
+        119.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        141.0,
+        80.0,
+        67.0,
+        96.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        141.0,
+        75.0,
+        62.0,
+        93.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        163.0,
+        121.0,
+        84.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        216.0,
+        205.0,
+        165.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        174.0,
+        120.0,
+        67.0,
+        120.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        218.0,
+        198.0,
+        169.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        163.0,
+        145.0,
+        114.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        226.0,
+        187.0,
+        109.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        195.0,
+        176.0,
+        130.0,
+        167.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        220.0,
+        207.0,
+        169.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        165.0,
+        128.0,
+        90.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        182.0,
+        123.0,
+        83.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        237.0,
+        218.0,
+        169.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        201.0,
+        177.0,
+        133.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        201.0,
+        196.0,
+        146.0,
+        181.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        228.0,
+        216.0,
+        144.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        151.0,
+        176.0,
+        100.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        222.0,
+        198.0,
+        170.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        157.0,
+        182.0,
+        99.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        225.0,
+        197.0,
+        166.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        205.0,
+        146.0,
+        102.0,
+        151.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        235.0,
+        227.0,
+        202.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        208.0,
+        195.0,
+        143.0,
+        182.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        206.0,
+        152.0,
+        103.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        234.0,
+        217.0,
+        138.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        232.0,
+        215.0,
+        169.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        192.0,
+        127.0,
+        80.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        207.0,
+        178.0,
+        136.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        229.0,
+        229.0,
+        201.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        184.0,
+        149.0,
+        98.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        189.0,
+        125.0,
+        82.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        173.0,
+        130.0,
+        103.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        157.0,
+        174.0,
+        101.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        208.0,
+        145.0,
+        107.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        209.0,
+        146.0,
+        103.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        215.0,
+        153.0,
+        101.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        182.0,
+        146.0,
+        93.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        187.0,
+        143.0,
+        98.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        218.0,
+        190.0,
+        109.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        227.0,
+        217.0,
+        174.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        231.0,
+        219.0,
+        211.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        178.0,
+        146.0,
+        92.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        164.0,
+        143.0,
+        117.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        207.0,
+        150.0,
+        106.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        225.0,
+        194.0,
+        102.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        200.0,
+        193.0,
+        138.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        164.0,
+        125.0,
+        82.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        173.0,
+        125.0,
+        90.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        151.0,
+        178.0,
+        103.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        208.0,
+        189.0,
+        139.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        198.0,
+        164.0,
+        114.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        206.0,
+        144.0,
+        105.0,
+        152.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        167.0,
+        121.0,
+        85.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        223.0,
+        201.0,
+        169.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        182.0,
+        117.0,
+        67.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        103.0,
+        154.0,
+        85.0,
+        114.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        213.0,
+        143.0,
+        102.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        234.0,
+        137.0,
+        120.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        225.0,
+        203.0,
+        170.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        196.0,
+        183.0,
+        130.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        159.0,
+        150.0,
+        118.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        152.0,
+        179.0,
+        99.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        226.0,
+        230.0,
+        205.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        180.0,
+        142.0,
+        98.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        145.0,
+        183.0,
+        104.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        201.0,
+        191.0,
+        141.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        139.0,
+        73.0,
+        61.0,
+        91.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        202.0,
+        183.0,
+        134.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        146.0,
+        81.0,
+        64.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        220.0,
+        202.0,
+        164.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        147.0,
+        179.0,
+        101.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        95.0,
+        152.0,
+        80.0,
+        109.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        163.0,
+        150.0,
+        119.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        206.0,
+        183.0,
+        135.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        204.0,
+        177.0,
+        128.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        238.0,
+        218.0,
+        175.0,
+        210.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        206.0,
+        180.0,
+        133.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        174.0,
+        123.0,
+        69.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        191.0,
+        126.0,
+        84.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        182.0,
+        145.0,
+        94.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        188.0,
+        144.0,
+        94.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        229.0,
+        219.0,
+        143.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        169.0,
+        143.0,
+        115.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        224.0,
+        142.0,
+        120.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        95.0,
+        150.0,
+        86.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        217.0,
+        148.0,
+        108.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        231.0,
+        228.0,
+        200.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        202.0,
+        186.0,
+        142.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        152.0,
+        176.0,
+        106.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        237.0,
+        223.0,
+        199.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        204.0,
+        157.0,
+        110.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        211.0,
+        189.0,
+        143.0,
+        181.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        206.0,
+        147.0,
+        107.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        203.0,
+        161.0,
+        110.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        144.0,
+        82.0,
+        65.0,
+        97.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        233.0,
+        226.0,
+        208.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        171.0,
+        118.0,
+        84.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        168.0,
+        151.0,
+        116.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        236.0,
+        215.0,
+        138.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        181.0,
+        125.0,
+        68.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        170.0,
+        126.0,
+        85.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        234.0,
+        142.0,
+        125.0,
+        167.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        214.0,
+        147.0,
+        100.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        164.0,
+        119.0,
+        87.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        232.0,
+        222.0,
+        210.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        186.0,
+        148.0,
+        97.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        139.0,
+        74.0,
+        69.0,
+        94.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        233.0,
+        214.0,
+        139.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        202.0,
+        188.0,
+        145.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        222.0,
+        206.0,
+        168.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        229.0,
+        218.0,
+        209.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        199.0,
+        179.0,
+        133.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        183.0,
+        143.0,
+        97.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        236.0,
+        213.0,
+        144.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        234.0,
+        143.0,
+        124.0,
+        167.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        204.0,
+        174.0,
+        135.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        221.0,
+        205.0,
+        163.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        164.0,
+        128.0,
+        84.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        180.0,
+        118.0,
+        68.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        232.0,
+        219.0,
+        208.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        168.0,
+        148.0,
+        114.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        226.0,
+        221.0,
+        199.0,
+        215.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        177.0,
+        122.0,
+        74.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        168.0,
+        122.0,
+        90.0,
+        127.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        175.0,
+        139.0,
+        103.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        169.0,
+        146.0,
+        117.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        222.0,
+        143.0,
+        121.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        146.0,
+        83.0,
+        67.0,
+        99.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        177.0,
+        132.0,
+        98.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        210.0,
+        193.0,
+        143.0,
+        182.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        226.0,
+        218.0,
+        205.0,
+        216.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        176.0,
+        116.0,
+        73.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        166.0,
+        146.0,
+        113.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        94.0,
+        152.0,
+        83.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        232.0,
+        219.0,
+        138.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        182.0,
+        123.0,
+        71.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        147.0,
+        176.0,
+        99.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        169.0,
+        148.0,
+        120.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        173.0,
+        122.0,
+        73.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        197.0,
+        183.0,
+        136.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        99.0,
+        155.0,
+        83.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        146.0,
+        78.0,
+        62.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        238.0,
+        226.0,
+        207.0,
+        224.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        104.0,
+        147.0,
+        83.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        202.0,
+        175.0,
+        136.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        223.0,
+        188.0,
+        104.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        234.0,
+        223.0,
+        212.0,
+        223.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        173.0,
+        140.0,
+        104.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        223.0,
+        141.0,
+        124.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        238.0,
+        214.0,
+        137.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        224.0,
+        186.0,
+        107.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        145.0,
+        175.0,
+        106.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        172.0,
+        132.0,
+        100.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        216.0,
+        150.0,
+        105.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        166.0,
+        130.0,
+        98.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        231.0,
+        217.0,
+        175.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        104.0,
+        150.0,
+        85.0,
+        113.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        182.0,
+        120.0,
+        81.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        211.0,
+        147.0,
+        105.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        172.0,
+        121.0,
+        83.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        97.0,
+        153.0,
+        82.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        186.0,
+        126.0,
+        86.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        226.0,
+        190.0,
+        102.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        175.0,
+        134.0,
+        98.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        239.0,
+        217.0,
+        145.0,
+        200.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        188.0,
+        119.0,
+        81.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        146.0,
+        178.0,
+        105.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        208.0,
+        165.0,
+        109.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        209.0,
+        165.0,
+        115.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        239.0,
+        218.0,
+        144.0,
+        200.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        200.0,
+        160.0,
+        111.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        150.0,
+        83.0,
+        68.0,
+        100.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        205.0,
+        177.0,
+        134.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        209.0,
+        162.0,
+        113.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        232.0,
+        216.0,
+        145.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        97.0,
+        154.0,
+        81.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        217.0,
+        192.0,
+        106.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        149.0,
+        177.0,
+        101.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        201.0,
+        175.0,
+        130.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        172.0,
+        134.0,
+        103.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        234.0,
+        212.0,
+        142.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        223.0,
+        207.0,
+        164.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        201.0,
+        188.0,
+        139.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        201.0,
+        158.0,
+        114.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        227.0,
+        208.0,
+        168.0,
+        201.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        198.0,
+        175.0,
+        135.0,
+        169.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        216.0,
+        145.0,
+        100.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        96.0,
+        156.0,
+        87.0,
+        113.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        217.0,
+        151.0,
+        101.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        217.0,
+        189.0,
+        104.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        229.0,
+        224.0,
+        205.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        207.0,
+        176.0,
+        133.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        213.0,
+        200.0,
+        165.0,
+        193.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        204.0,
+        187.0,
+        144.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        141.0,
+        78.0,
+        64.0,
+        94.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        153.0,
+        180.0,
+        104.0,
+        146.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        221.0,
+        197.0,
+        165.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        163.0,
+        124.0,
+        86.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        146.0,
+        183.0,
+        101.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        225.0,
+        192.0,
+        108.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        158.0,
+        152.0,
+        115.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        185.0,
+        147.0,
+        92.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        203.0,
+        164.0,
+        112.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        171.0,
+        126.0,
+        82.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        223.0,
+        204.0,
+        171.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        166.0,
+        136.0,
+        102.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        220.0,
+        194.0,
+        104.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        230.0,
+        224.0,
+        202.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        203.0,
+        192.0,
+        143.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        179.0,
+        123.0,
+        67.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        93.0,
+        148.0,
+        85.0,
+        109.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        202.0,
+        189.0,
+        144.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        228.0,
+        223.0,
+        200.0,
+        217.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        183.0,
+        121.0,
+        86.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        169.0,
+        120.0,
+        84.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        214.0,
+        201.0,
+        170.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        230.0,
+        221.0,
+        200.0,
+        217.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        142.0,
+        75.0,
+        68.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        231.0,
+        214.0,
+        173.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        233.0,
+        210.0,
+        170.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        155.0,
+        175.0,
+        102.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        162.0,
+        150.0,
+        113.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        227.0,
+        231.0,
+        201.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        100.0,
+        155.0,
+        80.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        140.0,
+        80.0,
+        61.0,
+        94.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        217.0,
+        186.0,
+        102.0,
+        168.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        210.0,
+        150.0,
+        101.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        101.0,
+        148.0,
+        87.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        177.0,
+        117.0,
+        69.0,
+        121.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        226.0,
+        143.0,
+        122.0,
+        164.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        167.0,
+        134.0,
+        105.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        169.0,
+        132.0,
+        105.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        93.0,
+        151.0,
+        87.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        104.0,
+        155.0,
+        81.0,
+        113.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        236.0,
+        231.0,
+        200.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        203.0,
+        186.0,
+        139.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        184.0,
+        147.0,
+        95.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        229.0,
+        218.0,
+        176.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        159.0,
+        145.0,
+        113.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        210.0,
+        196.0,
+        145.0,
+        184.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        204.0,
+        182.0,
+        133.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        211.0,
+        186.0,
+        141.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        200.0,
+        157.0,
+        109.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        182.0,
+        148.0,
+        96.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        223.0,
+        146.0,
+        120.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        147.0,
+        73.0,
+        63.0,
+        94.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        184.0,
+        141.0,
+        100.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        170.0,
+        133.0,
+        101.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        172.0,
+        116.0,
+        72.0,
+        120.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        199.0,
+        164.0,
+        111.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        239.0,
+        216.0,
+        169.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        101.0,
+        153.0,
+        83.0,
+        112.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        148.0,
+        177.0,
+        104.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        180.0,
+        144.0,
+        92.0,
+        139.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        222.0,
+        200.0,
+        164.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        236.0,
+        221.0,
+        142.0,
+        200.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        226.0,
+        189.0,
+        103.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        228.0,
+        225.0,
+        211.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        173.0,
+        128.0,
+        83.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        234.0,
+        210.0,
+        176.0,
+        207.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        146.0,
+        175.0,
+        103.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        160.0,
+        145.0,
+        119.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        102.0,
+        151.0,
+        86.0,
+        113.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        143.0,
+        82.0,
+        68.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        217.0,
+        195.0,
+        108.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        171.0,
+        131.0,
+        104.0,
+        135.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        227.0,
+        228.0,
+        199.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        207.0,
+        145.0,
+        101.0,
+        151.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        214.0,
+        149.0,
+        103.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        149.0,
+        80.0,
+        69.0,
+        99.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        232.0,
+        228.0,
+        206.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        232.0,
+        212.0,
+        176.0,
+        207.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        170.0,
+        123.0,
+        83.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        227.0,
+        209.0,
+        176.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        205.0,
+        165.0,
+        114.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        233.0,
+        223.0,
+        206.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        185.0,
+        117.0,
+        83.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        198.0,
+        173.0,
+        132.0,
+        168.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        160.0,
+        148.0,
+        112.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        101.0,
+        156.0,
+        85.0,
+        114.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        156.0,
+        184.0,
+        105.0,
+        148.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        173.0,
+        122.0,
+        88.0,
+        128.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        211.0,
+        145.0,
+        102.0,
+        153.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        180.0,
+        119.0,
+        67.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        219.0,
+        196.0,
+        110.0,
+        175.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        191.0,
+        121.0,
+        79.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        227.0,
+        193.0,
+        110.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        178.0,
+        117.0,
+        75.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        179.0,
+        141.0,
+        93.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        153.0,
+        174.0,
+        100.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        148.0,
+        77.0,
+        61.0,
+        95.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        233.0,
+        220.0,
+        204.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        103.0,
+        155.0,
+        84.0,
+        114.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        201.0,
+        163.0,
+        110.0,
+        158.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        185.0,
+        142.0,
+        96.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        227.0,
+        230.0,
+        202.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        172.0,
+        127.0,
+        87.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        222.0,
+        138.0,
+        125.0,
+        162.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        219.0,
+        199.0,
+        165.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        205.0,
+        183.0,
+        129.0,
+        172.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        94.0,
+        149.0,
+        81.0,
+        108.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        163.0,
+        127.0,
+        88.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        145.0,
+        177.0,
+        100.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        237.0,
+        216.0,
+        143.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        174.0,
+        136.0,
+        104.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        160.0,
+        146.0,
+        118.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        226.0,
+        224.0,
+        209.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        229.0,
+        147.0,
+        123.0,
+        166.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        166.0,
+        133.0,
+        100.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        200.0,
+        196.0,
+        140.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        203.0,
+        195.0,
+        145.0,
+        181.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        99.0,
+        147.0,
+        85.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        205.0,
+        190.0,
+        143.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        99.0,
+        157.0,
+        86.0,
+        114.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        228.0,
+        217.0,
+        171.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        239.0,
+        211.0,
+        173.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        222.0,
+        219.0,
+        212.0,
+        218.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        174.0,
+        128.0,
+        89.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        222.0,
+        221.0,
+        206.0,
+        216.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        229.0,
+        213.0,
+        171.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        222.0,
+        201.0,
+        163.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        208.0,
+        190.0,
+        138.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        207.0,
+        156.0,
+        115.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        209.0,
+        187.0,
+        142.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        206.0,
+        161.0,
+        114.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        152.0,
+        174.0,
+        103.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        205.0,
+        152.0,
+        106.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        232.0,
+        218.0,
+        139.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        206.0,
+        155.0,
+        110.0,
+        157.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        212.0,
+        151.0,
+        103.0,
+        155.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        225.0,
+        226.0,
+        206.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        231.0,
+        140.0,
+        118.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        217.0,
+        146.0,
+        105.0,
+        156.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        183.0,
+        118.0,
+        72.0,
+        124.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        167.0,
+        118.0,
+        83.0,
+        123.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        239.0,
+        215.0,
+        142.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        195.0,
+        173.0,
+        128.0,
+        165.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        175.0,
+        124.0,
+        89.0,
+        129.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        225.0,
+        220.0,
+        211.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        235.0,
+        216.0,
+        168.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        181.0,
+        145.0,
+        97.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        178.0,
+        130.0,
+        101.0,
+        136.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        224.0,
+        196.0,
+        108.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        235.0,
+        225.0,
+        199.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        231.0,
+        211.0,
+        171.0,
+        204.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        208.0,
+        148.0,
+        100.0,
+        152.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        178.0,
+        136.0,
+        105.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        215.0,
+        207.0,
+        171.0,
+        198.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        234.0,
+        208.0,
+        173.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        224.0,
+        139.0,
+        118.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        227.0,
+        221.0,
+        143.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        183.0,
+        146.0,
+        99.0,
+        143.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        239.0,
+        212.0,
+        140.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        234.0,
+        224.0,
+        203.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        222.0,
+        195.0,
+        106.0,
+        174.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        94.0,
+        154.0,
+        86.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        181.0,
+        122.0,
+        75.0,
+        126.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        220.0,
+        205.0,
+        166.0,
+        197.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        233.0,
+        226.0,
+        200.0,
+        220.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        210.0,
+        155.0,
+        111.0,
+        159.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        233.0,
+        139.0,
+        117.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        214.0,
+        207.0,
+        165.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        162.0,
+        144.0,
+        118.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        228.0,
+        193.0,
+        107.0,
+        176.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        237.0,
+        212.0,
+        174.0,
+        208.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        167.0,
+        144.0,
+        116.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        205.0,
+        188.0,
+        140.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        187.0,
+        140.0,
+        96.0,
+        141.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        233.0,
+        219.0,
+        144.0,
+        199.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        152.0,
+        184.0,
+        104.0,
+        147.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        168.0,
+        150.0,
+        117.0,
+        145.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        205.0,
+        174.0,
+        132.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        187.0,
+        126.0,
+        83.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        149.0,
+        77.0,
+        67.0,
+        98.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        230.0,
+        211.0,
+        174.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        225.0,
+        137.0,
+        121.0,
+        161.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        161.0,
+        149.0,
+        117.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Fruit Bowl",
+      "features": [
+        210.0,
+        149.0,
+        102.0,
+        154.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        167.0,
+        131.0,
+        103.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        229.0,
+        215.0,
+        174.0,
+        206.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        229.0,
+        191.0,
+        110.0,
+        177.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        166.0,
+        147.0,
+        112.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        217.0,
+        187.0,
+        110.0,
+        171.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        207.0,
+        189.0,
+        142.0,
+        179.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        164.0,
+        148.0,
+        113.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Chapati",
+      "features": [
+        205.0,
+        163.0,
+        111.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        190.0,
+        125.0,
+        79.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        229.0,
+        214.0,
+        138.0,
+        194.0
+      ]
+    },
+    {
+      "label": "Lentil Soup",
+      "features": [
+        174.0,
+        118.0,
+        73.0,
+        122.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        221.0,
+        186.0,
+        103.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        234.0,
+        218.0,
+        174.0,
+        209.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        210.0,
+        194.0,
+        142.0,
+        182.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        234.0,
+        229.0,
+        199.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        214.0,
+        206.0,
+        166.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        209.0,
+        196.0,
+        139.0,
+        181.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        197.0,
+        175.0,
+        129.0,
+        167.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        193.0,
+        119.0,
+        79.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        192.0,
+        121.0,
+        85.0,
+        133.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        187.0,
+        118.0,
+        85.0,
+        130.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        229.0,
+        223.0,
+        205.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        238.0,
+        213.0,
+        170.0,
+        207.0
+      ]
+    },
+    {
+      "label": "Banana Smoothie",
+      "features": [
+        230.0,
+        215.0,
+        143.0,
+        196.0
+      ]
+    },
+    {
+      "label": "Greek Yogurt Bowl",
+      "features": [
+        238.0,
+        229.0,
+        200.0,
+        222.0
+      ]
+    },
+    {
+      "label": "Beef Steak",
+      "features": [
+        151.0,
+        79.0,
+        68.0,
+        99.0
+      ]
+    },
+    {
+      "label": "Omelette",
+      "features": [
+        227.0,
+        187.0,
+        106.0,
+        173.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        193.0,
+        122.0,
+        81.0,
+        132.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        165.0,
+        149.0,
+        118.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        149.0,
+        180.0,
+        103.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Avocado Toast",
+      "features": [
+        151.0,
+        184.0,
+        98.0,
+        144.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        227.0,
+        138.0,
+        123.0,
+        163.0
+      ]
+    },
+    {
+      "label": "Brown Rice",
+      "features": [
+        203.0,
+        176.0,
+        132.0,
+        170.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        226.0,
+        227.0,
+        211.0,
+        221.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        222.0,
+        140.0,
+        119.0,
+        160.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        176.0,
+        137.0,
+        106.0,
+        140.0
+      ]
+    },
+    {
+      "label": "Grilled Chicken Breast",
+      "features": [
+        166.0,
+        131.0,
+        106.0,
+        134.0
+      ]
+    },
+    {
+      "label": "Peanut Butter Sandwich",
+      "features": [
+        181.0,
+        139.0,
+        93.0,
+        138.0
+      ]
+    },
+    {
+      "label": "Salmon Fillet",
+      "features": [
+        232.0,
+        147.0,
+        118.0,
+        166.0
+      ]
+    },
+    {
+      "label": "Pasta Alfredo",
+      "features": [
+        228.0,
+        218.0,
+        170.0,
+        205.0
+      ]
+    },
+    {
+      "label": "Paneer Curry",
+      "features": [
+        186.0,
+        123.0,
+        84.0,
+        131.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        162.0,
+        149.0,
+        114.0,
+        142.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        100.0,
+        147.0,
+        82.0,
+        110.0
+      ]
+    },
+    {
+      "label": "Idli Sambar",
+      "features": [
+        218.0,
+        203.0,
+        165.0,
+        195.0
+      ]
+    },
+    {
+      "label": "Veggie Burger",
+      "features": [
+        168.0,
+        125.0,
+        83.0,
+        125.0
+      ]
+    },
+    {
+      "label": "Quinoa Bowl",
+      "features": [
+        203.0,
+        189.0,
+        141.0,
+        178.0
+      ]
+    },
+    {
+      "label": "Sushi Roll",
+      "features": [
+        223.0,
+        227.0,
+        207.0,
+        219.0
+      ]
+    },
+    {
+      "label": "Mixed Salad",
+      "features": [
+        93.0,
+        156.0,
+        83.0,
+        111.0
+      ]
+    },
+    {
+      "label": "Tofu Stir Fry",
+      "features": [
+        159.0,
+        148.0,
+        115.0,
+        141.0
+      ]
+    }
+  ],
+  "food_profiles": {
+    "Grilled Chicken Breast": {
+      "food_name": "Grilled Chicken Breast",
+      "portion_label": "1 serving",
+      "portion_grams": 150.2,
+      "calories_per_100g": 164.67,
+      "protein_per_100g": 30.9628,
+      "carbs_per_100g": 0.0,
+      "fat_per_100g": 3.5942,
+      "fiber_per_100g": 0.0,
+      "sodium_mg_per_100g": 73.9557,
+      "is_vegan": false,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Brown Rice": {
+      "food_name": "Brown Rice",
+      "portion_label": "1 bowl",
+      "portion_grams": 180.0,
+      "calories_per_100g": 110.778,
+      "protein_per_100g": 2.597,
+      "carbs_per_100g": 22.9678,
+      "fat_per_100g": 0.8987,
+      "fiber_per_100g": 1.7982,
+      "sodium_mg_per_100g": 4.997,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Mixed Salad": {
+      "food_name": "Mixed Salad",
+      "portion_label": "1 bowl",
+      "portion_grams": 120.0,
+      "calories_per_100g": 27.944,
+      "protein_per_100g": 1.8977,
+      "carbs_per_100g": 5.4923,
+      "fat_per_100g": 0.2997,
+      "fiber_per_100g": 2.1978,
+      "sodium_mg_per_100g": 39.976,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Paneer Curry": {
+      "food_name": "Paneer Curry",
+      "portion_label": "1 bowl",
+      "portion_grams": 200.0,
+      "calories_per_100g": 264.47,
+      "protein_per_100g": 10.9868,
+      "carbs_per_100g": 8.9873,
+      "fat_per_100g": 19.968,
+      "fiber_per_100g": 1.998,
+      "sodium_mg_per_100g": 419.748,
+      "is_vegan": false,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": [
+        "dairy"
+      ]
+    },
+    "Chapati": {
+      "food_name": "Chapati",
+      "portion_label": "2 pieces",
+      "portion_grams": 80.0,
+      "calories_per_100g": 296.406,
+      "protein_per_100g": 9.5883,
+      "carbs_per_100g": 54.923,
+      "fat_per_100g": 3.694,
+      "fiber_per_100g": 7.2927,
+      "sodium_mg_per_100g": 309.814,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "allergens": [
+        "gluten"
+      ]
+    },
+    "Omelette": {
+      "food_name": "Omelette",
+      "portion_label": "2 eggs",
+      "portion_grams": 110.0,
+      "calories_per_100g": 153.692,
+      "protein_per_100g": 12.585,
+      "carbs_per_100g": 1.0983,
+      "fat_per_100g": 10.583,
+      "fiber_per_100g": 0.0,
+      "sodium_mg_per_100g": 154.907,
+      "is_vegan": false,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": [
+        "egg"
+      ]
+    },
+    "Salmon Fillet": {
+      "food_name": "Salmon Fillet",
+      "portion_label": "1 fillet",
+      "portion_grams": 160.0,
+      "calories_per_100g": 207.584,
+      "protein_per_100g": 19.976,
+      "carbs_per_100g": 0.0,
+      "fat_per_100g": 12.9792,
+      "fiber_per_100g": 0.0,
+      "sodium_mg_per_100g": 58.9647,
+      "is_vegan": false,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "allergens": [
+        "fish"
+      ]
+    },
+    "Avocado Toast": {
+      "food_name": "Avocado Toast",
+      "portion_label": "1 slice",
+      "portion_grams": 140.0,
+      "calories_per_100g": 219.56,
+      "protein_per_100g": 5.9928,
+      "carbs_per_100g": 22.9678,
+      "fat_per_100g": 11.9808,
+      "fiber_per_100g": 6.993,
+      "sodium_mg_per_100g": 339.796,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "allergens": [
+        "gluten"
+      ]
+    },
+    "Greek Yogurt Bowl": {
+      "food_name": "Greek Yogurt Bowl",
+      "portion_label": "1 bowl",
+      "portion_grams": 170.0,
+      "calories_per_100g": 121.756,
+      "protein_per_100g": 10.9868,
+      "carbs_per_100g": 6.9902,
+      "fat_per_100g": 4.992,
+      "fiber_per_100g": 1.4985,
+      "sodium_mg_per_100g": 61.9628,
+      "is_vegan": false,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": [
+        "dairy"
+      ]
+    },
+    "Tofu Stir Fry": {
+      "food_name": "Tofu Stir Fry",
+      "portion_label": "1 bowl",
+      "portion_grams": 210.0,
+      "calories_per_100g": 144.71,
+      "protein_per_100g": 11.9857,
+      "carbs_per_100g": 9.986,
+      "fat_per_100g": 7.9872,
+      "fiber_per_100g": 2.997,
+      "sodium_mg_per_100g": 389.766,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": [
+        "soy"
+      ]
+    },
+    "Lentil Soup": {
+      "food_name": "Lentil Soup",
+      "portion_label": "1 bowl",
+      "portion_grams": 240.0,
+      "calories_per_100g": 115.768,
+      "protein_per_100g": 8.9892,
+      "carbs_per_100g": 19.972,
+      "fat_per_100g": 0.4992,
+      "fiber_per_100g": 7.992,
+      "sodium_mg_per_100g": 359.784,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Beef Steak": {
+      "food_name": "Beef Steak",
+      "portion_label": "1 steak",
+      "portion_grams": 180.0,
+      "calories_per_100g": 270.458,
+      "protein_per_100g": 24.97,
+      "carbs_per_100g": 0.0,
+      "fat_per_100g": 18.9697,
+      "fiber_per_100g": 0.0,
+      "sodium_mg_per_100g": 57.9652,
+      "is_vegan": false,
+      "is_vegetarian": false,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Banana Smoothie": {
+      "food_name": "Banana Smoothie",
+      "portion_label": "1 glass",
+      "portion_grams": 300.0,
+      "calories_per_100g": 95.808,
+      "protein_per_100g": 3.4958,
+      "carbs_per_100g": 17.9748,
+      "fat_per_100g": 1.198,
+      "fiber_per_100g": 2.5973,
+      "sodium_mg_per_100g": 44.973,
+      "is_vegan": false,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": [
+        "dairy"
+      ]
+    },
+    "Quinoa Bowl": {
+      "food_name": "Quinoa Bowl",
+      "portion_label": "1 bowl",
+      "portion_grams": 200.0,
+      "calories_per_100g": 119.76,
+      "protein_per_100g": 4.3947,
+      "carbs_per_100g": 20.9707,
+      "fat_per_100g": 1.897,
+      "fiber_per_100g": 2.7972,
+      "sodium_mg_per_100g": 13.9917,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Pasta Alfredo": {
+      "food_name": "Pasta Alfredo",
+      "portion_label": "1 plate",
+      "portion_grams": 280.0,
+      "calories_per_100g": 229.54,
+      "protein_per_100g": 7.9903,
+      "carbs_per_100g": 25.9637,
+      "fat_per_100g": 10.9823,
+      "fiber_per_100g": 1.4985,
+      "sodium_mg_per_100g": 459.724,
+      "is_vegan": false,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "allergens": [
+        "dairy",
+        "gluten"
+      ]
+    },
+    "Veggie Burger": {
+      "food_name": "Veggie Burger",
+      "portion_label": "1 burger",
+      "portion_grams": 220.0,
+      "calories_per_100g": 189.62,
+      "protein_per_100g": 11.9857,
+      "carbs_per_100g": 23.9663,
+      "fat_per_100g": 4.992,
+      "fiber_per_100g": 5.994,
+      "sodium_mg_per_100g": 519.688,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "allergens": [
+        "gluten",
+        "soy"
+      ]
+    },
+    "Sushi Roll": {
+      "food_name": "Sushi Roll",
+      "portion_label": "8 pieces",
+      "portion_grams": 250.2,
+      "calories_per_100g": 149.7,
+      "protein_per_100g": 5.9928,
+      "carbs_per_100g": 27.9608,
+      "fat_per_100g": 1.9968,
+      "fiber_per_100g": 0.999,
+      "sodium_mg_per_100g": 409.754,
+      "is_vegan": false,
+      "is_vegetarian": false,
+      "is_gluten_free": false,
+      "allergens": [
+        "fish",
+        "soy"
+      ]
+    },
+    "Fruit Bowl": {
+      "food_name": "Fruit Bowl",
+      "portion_label": "1 bowl",
+      "portion_grams": 220.0,
+      "calories_per_100g": 64.87,
+      "protein_per_100g": 0.9988,
+      "carbs_per_100g": 15.9777,
+      "fat_per_100g": 0.2997,
+      "fiber_per_100g": 2.997,
+      "sodium_mg_per_100g": 1.9988,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Idli Sambar": {
+      "food_name": "Idli Sambar",
+      "portion_label": "3 idlis",
+      "portion_grams": 260.0,
+      "calories_per_100g": 132.734,
+      "protein_per_100g": 4.7942,
+      "carbs_per_100g": 25.9637,
+      "fat_per_100g": 1.198,
+      "fiber_per_100g": 3.4965,
+      "sodium_mg_per_100g": 279.832,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": true,
+      "allergens": []
+    },
+    "Peanut Butter Sandwich": {
+      "food_name": "Peanut Butter Sandwich",
+      "portion_label": "1 sandwich",
+      "portion_grams": 150.2,
+      "calories_per_100g": 291.416,
+      "protein_per_100g": 11.9857,
+      "carbs_per_100g": 29.958,
+      "fat_per_100g": 13.9777,
+      "fiber_per_100g": 3.996,
+      "sodium_mg_per_100g": 389.766,
+      "is_vegan": true,
+      "is_vegetarian": true,
+      "is_gluten_free": false,
+      "allergens": [
+        "gluten",
+        "peanut"
+      ]
+    }
+  }
+}
